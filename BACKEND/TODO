@@ -1,0 +1,8 @@
+move /user/session into userAction
+
+the logic of setting up non-existent users is required
+in other routes should (not sure if app init can ever fail)
+
+//add turn phase. ex:
+giving drinks, if user reloads while giving drinks, state is lost
+//or set local ?

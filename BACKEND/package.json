@@ -1,0 +1,26 @@
+{
+  "name": "utrdtr",
+  "version": "1.0.0",
+  "description": "Social Drinking Game",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect-loki": "^1.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "express-socket.io-session": "^1.3.5",
+    "lokijs": "^1.5.8",
+    "lokijs-promise": "^1.0.4",
+    "socket.io": "^2.3.0",
+    "sqlite3": "^4.1.1",
+    "uuid": "^7.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
